@@ -12,7 +12,7 @@ def skip_frames(rs_bag, num_frames):
 # Start timing
 start_time = time.time()
 
-bag_file_path = './11.bag'
+bag_file_path = './1.bag'
 batch_size = 40  # Adjust this as needed
 
 rs_bag = RealsenseCameraBag(bag_file_path)
